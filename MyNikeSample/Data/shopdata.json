@@ -1,0 +1,117 @@
+{
+    "musthaves" : [
+        {
+            "id": 101,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c6d262eb-3e8a-4fee-b7cf-386a7150cee2/toddler-club-camo-fleece-pullover-hoodie-MH4WWd.png",
+             "title": "Find Your Fit Sales"
+        },
+        {
+            "id": 102,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/95c9f968-cd50-4343-9260-6d790719b9a1/womens-t-shirt-WGW0Cj.png",
+              "title": "Best Seller"
+        },
+ 
+      {
+            "id": 103,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52072390-14f2-401c-85fc-63b102f78a04/swoosh-mens-golf-hoodie-mcFddD.png",
+            "title": "New Nike Fleece"
+        },
+        {
+            "id": 104,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c6d262eb-3e8a-4fee-b7cf-386a7150cee2/toddler-club-camo-fleece-pullover-hoodie-MH4WWd.png",
+            "title": "Nike"
+        },
+        {
+            "id": 105,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/95c9f968-cd50-4343-9260-6d790719b9a1/womens-t-shirt-WGW0Cj.png",
+            "title": "Nike swoosh"
+        }
+        
+    ],
+    
+    "categories" : [
+        {
+            "id": 101,
+            "image": "img-featured",
+            "title": "New & Featured"
+
+        },
+        {
+            "id": 102,
+            "image": "img-shoes",
+             "title": "Shoes"
+
+        },
+        {
+            "id": 103,
+            "image": "img-clothing",
+             "title": "Clothing"
+
+        },
+        {
+            "id": 104,
+            "image": "img-accessories",
+             "title": "Accessories"
+
+        },
+        {
+            "id": 105,
+            "image": "img-drops",
+             "title": "Drops"
+
+        },
+        {
+            "id": 106,
+            "image": "img-sale",
+            "title": "Sale"
+
+        }
+ 
+ 
+ 
+ 
+ 
+    ],
+    
+    "newarrivals" : [
+        {
+            "id": 101,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c9aaa074-aa32-4212-b2c3-e7c67111ff40/waffle-one-se-womens-shoes-VBFNvX.png",
+            "title": "Nike Dunk Low Retro",
+            "price": "110"
+
+        },
+        {
+            "id": 102,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/48f2834b-bc0a-4fd6-8513-33d3ff0e7489/air-jordan-1-mid-womens-shoes-jtXfvt.png",
+            "title": "Nike Dunk High Premium",
+            "price": "125"
+        },
+        {
+            "id": 103,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1bd23340-f494-420b-a1f1-91214da76018/free-metcon-4-womens-training-shoes-pxHVt9.png",
+            "title": "Nike React Pegasus Trail",
+            "price": "160"
+        },
+        {
+            "id": 104,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bdfb788c-6392-4daa-b5dc-753759268e67/air-jordan-1-low-og-shoes-5L7RmC.png",
+            "title": "Nike Air Force 1 Trail",
+            "price": "120"
+        },
+        {
+            "id": 105,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/019f60a9-aa10-4327-b5f6-b940b753fbdb/dunk-high-1985-shoes-rsx4JL.png",
+            "title": "Nike Dunk High 1985",
+            "price": "140"
+        },
+        {
+            "id": 106,
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/145d72ce-fb48-4d0c-82bf-8f32ca01532d/dunk-high-premium-womens-shoes-ZhkMvb.png",
+            "title": "Air Jordan 1 Low OG",
+            "price": "150"
+        }
+        
+    ]
+    
+}

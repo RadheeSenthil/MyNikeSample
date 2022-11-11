@@ -32,3 +32,5 @@ struct NewArrival: Codable, Identifiable {
     let image, title: String
     let price: String
 }
+
+

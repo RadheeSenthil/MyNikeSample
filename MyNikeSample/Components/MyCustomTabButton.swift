@@ -19,7 +19,6 @@ struct MyCustomTabButton: View {
                 .font(.headline)
                 .foregroundColor(isSelected ? .black : .gray)
                 .background {
-                    
                     VStack {
                         Spacer()
                         HStack {

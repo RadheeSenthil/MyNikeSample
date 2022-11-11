@@ -36,6 +36,9 @@ struct MustHavesView_Previews: PreviewProvider {
         
         let shopDataModel = ServiceLayer().loadShopJson()
         
+        //let shopDataModel = ServiceLayer().getShopData()
+
+        
         MustHavesView(mustHaves: shopDataModel?.musthaves ?? [])
     }
 }

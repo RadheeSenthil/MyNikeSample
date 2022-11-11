@@ -11,6 +11,23 @@ struct TabViewWomen: View {
     
     @State var shopDataModel : ShopDataModel?
     
+    func getDataFromLocal() {
+        
+        shopDataModel = ServiceLayer().loadShopJson()
+        print(shopDataModel?.newarrivals[0].title ?? "Error")
+    }
+    
+    func getDataFromServer() {
+        Task {
+            do {
+                shopDataModel = try await ServiceLayer().getShopData()
+            }
+            catch {
+                print("Error : \(error)")
+            }
+        }
+    }
+    
     var body: some View {
         
         ScrollView(.vertical, showsIndicators: false) {
@@ -23,8 +40,8 @@ struct TabViewWomen: View {
             
         }
         .onAppear{
-            shopDataModel = ServiceLayer().loadShopJson()
-            print(shopDataModel?.newarrivals[0].title ?? "Error")
+            getDataFromLocal()
+            //getDataFromServer()
         }
     }
 }

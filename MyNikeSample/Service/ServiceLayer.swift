@@ -10,6 +10,8 @@ import Foundation
 
 class ServiceLayer {
     
+    let shopDataEndPoint = "https://raw.githubusercontent.com/RadheeSenthil/MyJSONServer/main/mynikesample/data/shopdata.json"
+    
     //Read From Local File shopdata.json
     
     func loadShopJson() -> ShopDataModel? {
@@ -31,5 +33,45 @@ class ServiceLayer {
         return nil
     }
     
+    
+    func getShopData() async throws -> ShopDataModel? {
+        
+        var shopdata : ShopDataModel?
+        
+        guard let url = URL(string: shopDataEndPoint)
+        else
+        {
+            return nil
+        }
+        
+        let urlRequest = URLRequest(url: url)
+        
+        let (data, response) = try await URLSession.shared.data(for: urlRequest)
+        
+        guard let httpResponse = response as? HTTPURLResponse
+        else
+        {
+            return nil
+        }
+        
+        if ( httpResponse.statusCode == 200 ) {
+            do {
+                let decoder = JSONDecoder()
+                shopdata = try decoder.decode(ShopDataModel.self, from: data)
+                return shopdata
+            }
+            catch
+            {
+                print("Error : \(error)")
+            }
+        }
+        else
+        {
+            return nil
+        }
+        
+        return shopdata
+        
+    }
     
 }
